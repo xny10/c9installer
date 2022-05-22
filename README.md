@@ -12,12 +12,12 @@ Requirements
 Install cURL [IMPORTANT]
 
 ```sh
-$ sudo apt-get install curl -y
+sudo apt-get install curl -y
 ```
 
 Then run the installer command
 ```sh
-$ sudo curl -sL https://raw.githubusercontent.com/daniakaogem/c9installer/master/installer.sh -o c9installer.sh && sudo bash c9installer.sh
+sudo curl -sL https://raw.githubusercontent.com/daniakaogem/c9installer/master/installer.sh -o c9installer.sh && sudo bash c9installer.sh
 ```
 
 #### Running IDE
@@ -25,7 +25,7 @@ $ sudo curl -sL https://raw.githubusercontent.com/daniakaogem/c9installer/master
 You can run sleepless (24x7) IDE using forever
 
 ```sh
-$ sudo forever start ~/c9sdk/server.js -w /var/www --port 8080 --listen 0.0.0.0 --auth <username>:<password>
+sudo forever start ~/c9sdk/server.js -w /var/www --port 8080 --listen 0.0.0.0 --auth <username>:<password>
 ```
 
 
